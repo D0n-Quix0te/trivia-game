@@ -1,0 +1,142 @@
+html {
+	height: 115%;
+	background: url('background.jpg') no-repeat center center;
+	background-size: cover;
+}
+body{
+	background: none;
+}
+
+.logo{
+	max-width: 55%;
+	margin-left: -20px;
+}
+
+#display{
+	font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 14px;
+    box-shadow: inset 0 0 2px #000000;
+
+}
+.tv{
+	max-width: 115%;
+	font-family: 'Roboto', serif;
+	text-align: center;
+}
+
+#centerTV{
+	text-align: center;
+
+}
+
+header, #question{
+	font-family: 'Chicle', cursive;
+	margin-top: 30px;
+	color: #af0581;
+	letter-spacing: 1px;
+	border-bottom-style: dotted;
+	border-width: 2px;
+	text-shadow: 2px 2px white;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.triviaBox{
+	margin-top: 20px;
+}
+
+p{
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.intro{
+	margin-top: 60px;
+	/*border-style: double;*/
+    /*border-width: 7px;*/
+
+
+}
+
+.startButton{
+	background-color: #83d6fc;
+	padding: 10px;
+	color: #af0581;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Chicle', cursive;
+	text-decoration: underline;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px white;
+}
+
+#choice1, #choice2, #choice3{
+	border: 2px solid;
+    border-radius: 28px;
+    margin: 5px;
+    padding: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #83d6fc;
+    color: #af0581;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Chicle', cursive;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white;
+}
+
+#choice1{
+	margin-top: 30px;
+}
+
+#endgameCount{
+	font-family: 'Chicle', cursive;
+    color: #af0581;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white;
+    font-size: 36px;
+    margin-bottom: 20px;
+   
+
+}
+
+@media screen and (max-width: 768px){
+	.logo {
+	    max-width: 85%;
+	    margin-left: 18px;
+	    margin-top: 10px;
+	}
+
+	header, #question{
+		font-size: 26px;
+	}
+	.tv {
+    	max-width: 95%;
+    	text-align: center;
+	}
+	.intro{
+		margin-top: 0;
+	}
+
+	#finalTV{
+		margin-top: 
+	}
+
+	#choice1, #choice2, #choice3{
+		font-size: 18px;
+	}	
+
+}
+
+
+
+
